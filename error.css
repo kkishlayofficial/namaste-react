@@ -1,0 +1,40 @@
+.errorPage {
+  flex-grow: 1;
+}
+
+.errorSection {
+  min-height: calc(100vh - 229px);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.errorCard {
+  text-align: center;
+  width: 430px;
+  line-height: 1.25;
+  padding: 120px 0;
+}
+
+.errorImg {
+  background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/connection_error_bsppck);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 260px;
+}
+
+.errorTitle {
+  color: #282c3f;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 30px 0 10px;
+}
+
+.errorDesc {
+  color: #93959f;
+  font-size: 16px;
+}
